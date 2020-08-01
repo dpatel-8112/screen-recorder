@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Screen Recorder</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body  onload="init()">
+	<div class="container">
+
+        <table>
+            <caption><img src="logo-final.png" alt="amazing"></caption>
+            <thead>
+                <tr>
+                    <th colspan="4" id="heading">Screen Recorder</th>
+                </tr>
+            </thead>
+            <tbody>
+            	<tr>
+            		<td><button id="start" class="button">Start Recording</button>
+   						<button id="stop" disabled>Stop Recording</button>
+   					</td>
+            	</tr>
+            	<tr>
+            		<td>
+            			<video autoplay controls="" />
+            		</td>
+            	</tr>
+            </tbody>
+        </table>     
+        
+    </div>
+
+
+
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
